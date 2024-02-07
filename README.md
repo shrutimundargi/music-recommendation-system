@@ -2,7 +2,7 @@
 
 ## Introduction
 
-![zsdgdgf](https://github.com/shrutimundargi/music-recommendation-system/assets/48567754/6280c52c-d969-4c63-8fcf-518dcc0b742b)
+![zsdgdgf](https://github.com/shrutimundargi/music-recommendation-system/assets/48567754/cdea7346-6dbb-4675-aa5b-dc2bf8ef4ed7)
 
 It might be overwhelming to decide what to play next in the modern world where streaming music has become so simple and there are millions and millions of songs available to listen to. Users may find it difficult and time-consuming to find new tracks that suit their tastes. It is also probable that the user would wind up merely choosing what to play next rather than really listening to any songs when there are millions of alternatives available in a genre, which could be frustrating. Systems that generate recommendations make this work incredibly simple. Machine learning algorithms can be used to analyze and propose music based on a variety of characteristics, including user listening habits and tastes. Music recommendation systems can offer personalized suggestions that are appropriate for the user's musical preferences and can simplify things for users by giving them an easy way to find new artists and genres they might enjoy. It can help consumers discover musical genres they might like and improve their overall listening experience.
 
