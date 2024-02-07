@@ -32,6 +32,7 @@ Subsequently, the resulting DataFrame, now enriched with the newly engineered 'y
 ### K-means Clustering
 
 <img width="431" alt="Screenshot 2024-02-07 at 12 12 29 PM" src="https://github.com/shrutimundargi/music-recommendation-system/assets/48567754/9da4dc95-4a4c-4c30-a85a-f0de0fc1d2a0">
+
 K-means stands as a prominent clustering algorithm renowned for its ability to partition datasets into a predetermined number of clusters, denoted as 'k'. This segmentation is achieved by assessing the distance between data points and the centroids of the clusters. The algorithm operates iteratively, initially assigning data points to the nearest centroid and subsequently updating the centroids based on the mean of the data points assigned to each cluster.
 
 The iterative process continues until the centroids converge to a stable solution, indicating that further adjustments yield minimal change in cluster assignments. This convergence marks the completion of the algorithm's execution.
@@ -51,6 +52,7 @@ Upon computing the WCSS values for each cluster count, the function proceeds to 
 ### Fuzzy C-Means Clustering
 
 <img width="512" alt="Screenshot 2024-02-07 at 12 50 53 PM" src="https://github.com/shrutimundargi/music-recommendation-system/assets/48567754/6f05732d-93ca-46c6-b050-6cc1e253e43f">
+
 Fuzzy C-Means (FCM) represents a sophisticated clustering algorithm renowned for its unique approach to assigning data points to clusters based on similarity measures. Unlike conventional clustering methods, FCM introduces the concept of fuzzy membership, allowing data points to belong to multiple clusters simultaneously rather than being strictly assigned to a single cluster.
 
 The algorithm operates iteratively, continuously updating both the centroids of the clusters and the degree of membership of each data point in every cluster. This iterative refinement process continues until the membership values converge to a stable solution, indicating that further adjustments yield minimal changes in cluster assignments.
@@ -60,11 +62,13 @@ FCM finds extensive applications across diverse domains, including image segment
 #### Optimizing Fuzzy C-Means:
 
 <img width="378" alt="Screenshot 2024-02-07 at 12 40 42 PM" src="https://github.com/shrutimundargi/music-recommendation-system/assets/48567754/a9d877b9-ecd4-4189-9a4e-4d43fca88e84">
+
 The Fuzzy Partition Coefficient (FPC) is a metric commonly used in Fuzzy C-Means (FCM) clustering to assess the quality of clustering solutions. It measures the degree of fuzziness in the clustering, indicating how well the data points are distributed among the clusters. A higher FPC value suggests that the clustering is more robust and distinct. By leveraging the FPC and the elbow method, you can effectively determine the appropriate number of clusters for FCM clustering, ensuring robust and meaningful partitioning of your dataset.
 
 ### Gaussian Mixture Model:
 
 <img width="782" alt="Screenshot 2024-02-07 at 12 51 41 PM" src="https://github.com/shrutimundargi/music-recommendation-system/assets/48567754/1f6aab7e-8f7b-4944-bee8-37b173a0cef2">
+
 The Gaussian Mixture Model (GMM) stands as a probabilistic model fundamental for understanding datasets assumed to originate from a mixture of Gaussian distributions. Its primary objective lies in estimating the parameters characterizing these underlying Gaussian distributions, encompassing means, covariance matrices, and mixture weights dictating the relative contributions of each distribution.
 
 GMM's versatility extends to a spectrum of applications, including clustering, density estimation, and feature extraction, rendering it a cornerstone in various analytical tasks. Notably, the algorithm's ability to discern intricate patterns within datasets makes it particularly adept for tasks involving complex data structures.
@@ -76,6 +80,7 @@ In summary, GMM serves as a powerful tool in statistical modeling and inference,
 #### Optimizing Gaussian Mixture Model
 
 <img width="427" alt="Screenshot 2024-02-07 at 12 44 19 PM" src="https://github.com/shrutimundargi/music-recommendation-system/assets/48567754/20192c77-9e3a-4d9c-a2d7-3e6ed48d2d3b">
+
 In the process of estimating the optimal number of clusters using the Bayesian Information Criterion (BIC), the following steps are executed:
 
 Feature Scaling: The numerical features are standardized using the StandardScaler method to ensure uniformity in their distributions, enhancing the effectiveness of the subsequent clustering analysis.
@@ -91,6 +96,7 @@ Overall, this approach leverages the BIC criterion to guide the selection of the
 ## Song Extraction
 
 ![sdsf](https://github.com/shrutimundargi/music-recommendation-system/assets/48567754/85109889-5d52-4cee-9a66-b5f990fcaad1)
+
 Spotify stands as a widely acclaimed music streaming platform boasting an extensive library comprising millions of songs spanning various genres and artists. Central to the accessibility and programmability of Spotify's vast musical ecosystem is the Spotify API.
 
 The Spotify API serves as a comprehensive toolkit empowering developers to interact with Spotify's rich music data and functionalities programmatically. Through this interface, developers can seamlessly access a plethora of song information, including titles, artists, albums, and durations, directly from Spotify's metadata repository.
@@ -100,6 +106,7 @@ This API facilitates seamless integration of Spotify's music data and functional
 ## Recommendation
 
 ![gdgfdx](https://github.com/shrutimundargi/music-recommendation-system/assets/48567754/3f0f3d17-69ad-459a-a4f5-bd4eba65f141)
+
 In this particular use case, we focus on a specific song, "All of Me," and aim to receive recommendations for additional songs based on this input.
 
 The process involves leveraging recommendation systems, which utilize algorithms to analyze user preferences and behavior to generate personalized song suggestions. By inputting "All of Me" into the recommendation system, the algorithm identifies songs that share similar characteristics or appeal to users who enjoyed "All of Me."
@@ -115,6 +122,7 @@ Ultimately, the user receives a curated list of song recommendations, providing 
 ## Conclustion
 
 <img width="415" alt="Screenshot 2024-02-07 at 12 47 27 PM" src="https://github.com/shrutimundargi/music-recommendation-system/assets/48567754/87af65bf-87c5-4756-94e0-02ed3e5e98c0">
+
 In our project, we endeavored to construct a music recommendation system employing various clustering algorithms, namely K Means, Gaussian Mixture Model (GMM), and Fuzzy C Means. Our objective was to assess the performance of these algorithms and determine the most suitable approach for our dataset.
 
 Upon thorough evaluation, we found that K Means exhibited the least computation time compared to GMM and Fuzzy C Means, rendering it the most efficient algorithm for our specific dataset. This efficiency is crucial for ensuring real-time or near-real-time recommendations in practical applications.
