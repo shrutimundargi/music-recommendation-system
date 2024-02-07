@@ -12,7 +12,7 @@ This project utilized the Spotify dataset (202MB), which was available on Kaggle
 
 ## Methodology
 
-![gfhggfdf](https://github.com/shrutimundargi/music-recommendation-system/assets/48567754/5c71e085-a7fe-447d-90e1-27ad613019eb)
+![gfhggfdf](https://github.com/shrutimundargi/music-recommendation-system/assets/48567754/3125f78c-d167-46b8-805e-bfbf9701f2e2)
 
 By calculating the distance between songs that a user had previously listened to and new songs using a variety of variables in our dataset, we intended to develop a content-based music recommendation system. We aimed to recommend to the user a small number of songs that had the smallest distance, effectively locating songs in the same genre as the user's past preferences by calculating the distance. We believed that clustering algorithms (examples of which were provided below) would be able to provide us with respectable results.
 
