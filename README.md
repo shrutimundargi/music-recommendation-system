@@ -41,6 +41,7 @@ Widely employed across diverse domains encompassing machine learning, image proc
 #### Optimizing K-means
 
 <img width="380" alt="Screenshot 2024-02-07 at 12 37 39 PM" src="https://github.com/shrutimundargi/music-recommendation-system/assets/48567754/957e8972-5105-4ddf-94bb-5e8f1d8dac35">
+
 To determine the optimal number of clusters within a dataset through K-means clustering. Initially, the data undergoes scaling utilizing the mean and standard deviation of each feature to ensure uniformity and facilitate accurate clustering.
 
 Subsequently, the function iterates over a specified range of clusters, typically spanning from 10 to 30, and computes the Within-Cluster-Sum-of-Squares (WCSS) for each cluster configuration employing the K-means algorithm. WCSS, representing the sum of squared distances between each data point and its assigned centroid within a cluster, serves as a metric to evaluate clustering performance.
